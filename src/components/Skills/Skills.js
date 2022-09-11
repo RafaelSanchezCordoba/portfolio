@@ -8,15 +8,11 @@ export function Skills() {
     'HTML',
     'CSS',
     'JavaScript',
-    'TypeScript',
+    'Java',
+    'C#',
+    'SQL',
     'React',
-    'Redux',
-    'SASS',
-    'Material UI',
     'Git',
-    'CI/CD',
-    'Jest',
-    'Enzyme',
   ]
 
   if (!skills.length) return null
