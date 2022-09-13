@@ -1,11 +1,22 @@
 import './Projects.css'
+import uniqid from 'uniqid'
+import { projects} from '../../projects'
+import ProjectContainer from '../ProjectContainer/ProjectContainer'
 
-export function Projects() {
+const Projects = () => {
+    if (!projects.length) return null
+  
     return (
-        <section id='projects' className='section projects'>
-            <h2 className='section_title'>Projects</h2>
-            <div className='projects_grid'>   
-            </div>
-        </section>
+      <section id='projects' className='section projects'>
+        <h2 className='section__title'>Projects</h2>
+  
+        <div className='projects__grid'>
+          {projects.map((project) => (
+            <ProjectContainer key={uniqid()} project={project} />
+          ))}
+        </div>
+      </section>
     )
-}
+  }
+  
+  export default Projects
