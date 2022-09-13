@@ -1,6 +1,6 @@
 import './Projects.css'
 import uniqid from 'uniqid'
-import { projects} from '../../projects.js'
+import { projects} from '../../portfolio.js'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
 
 const Projects = () => {
