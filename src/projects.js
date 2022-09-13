@@ -17,3 +17,5 @@ const projects = [
       livePreview: 'https://react-todo-app-rafaelsanchezcordoba.vercel.app/',
     },
   ]
+
+  export { projects }
