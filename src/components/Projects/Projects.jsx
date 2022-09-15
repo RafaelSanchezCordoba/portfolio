@@ -1,10 +1,10 @@
 import './Projects.css'
 import uniqid from 'uniqid'
-import { projects} from './portfolio.js'
+import { projects } from './portfolio.js'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
 
-const Projects = () => {
-    if (!projects.length) return null
+export function Projects() {
+  if (!projects.length) return null
   
     return (
       <section id='projects' className='section projects'>
@@ -17,6 +17,4 @@ const Projects = () => {
         </div>
       </section>
     )
-  }
-  
-  export default Projects
+}
