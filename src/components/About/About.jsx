@@ -7,11 +7,10 @@ export function About() {
         <div className='about center'>
             <h1>Hi, I am <span className='about_name'>Rafa Sanchez</span></h1>
             <h2 className='about_role'>Software Engineering Student</h2>
-            <p className='about_desc'>I'm Rafa from Spain and I am a dedicated, ambitious, and hardworking individual who is passionate about software development and eager to learn new skills and take on new challenges to contribute to the success of the organization. I have strong technical skills as well as excellent interpersonal skills, enabling me to work collaboratively with team members and effectively communicate with stakeholders.</p>
+            <p className='about_desc'>I'm Rafa from Spain and I am a dedicated, ambitious, and hardworking individual who is passionate about software development and eager to learn new skills and take on new challenges. I have strong technical skills as well as excellent interpersonal skills, enabling me to work collaboratively with team members and effectively communicate with stakeholders.</p>
 
             <div className='about_contact center'>
-                <a href='../../doc/resume.pdf'
-                target="_blank" type="application/pdf" rel="alternate" media="print">
+                <a href='../../doc/resume.pdf' download>
                     <span type='button' className='btn btn-outline'>
                         Resume
                     </span>
