@@ -10,7 +10,8 @@ export function About() {
             <p className='about_desc'>I'm Rafa from Spain and I am a dedicated, ambitious, and hardworking individual who is passionate about software development and eager to learn new skills and take on new challenges to contribute to the success of the organization. I have strong technical skills as well as excellent interpersonal skills, enabling me to work collaboratively with team members and effectively communicate with stakeholders.</p>
 
             <div className='about_contact center'>
-                <a href='file:///Users/rafael/Desktop/Rafael%20Sa%CC%81nchez%20Co%CC%81rdoba%20CV.pdf'>
+                <a href='../../assets/RafaelSanchezCordoba.pdf'
+                target="_blank" type="application/pdf" rel="alternate" media="print">
                     <span type='button' className='btn btn-outline'>
                         Resume
                     </span>
